@@ -1,5 +1,6 @@
 
-![alt text](1.png)
+![alt text](images/header.png)
+
 
 This projects is focused on hands-on log analysis and detection scripts built while learning and practicing Security Operations Center (SOC) fundamentals.
 
