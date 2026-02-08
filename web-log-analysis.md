@@ -10,7 +10,7 @@ I can’t share the exact log data because it was part of a paid training course
 
 I started by baselining the data — checking the total number of events and the time range covered by the log so I understood the scope of activity.
 
-![alt text](image-1.png)
+![alt text](images/ss-1.png)
 
 - What is the format of the file? What tooling should I use? **ASCII text** 
 
@@ -24,15 +24,15 @@ I started by baselining the data — checking the total number of events and the
 
 Next, I analyzed source IP behavior by counting requests per IP. One IP stood out with significantly more connections than others, which suggested automated or scripted activity rather than normal user behavior.
 
-![alt text](image-4.png)
+![alt text](images/ss-3.png)
 
 - What are the top 3 IP addresses found within the log file? **23 counts of 182.87.64.64, 7 counts of 53.64.228.139, 5 counts of 85.165.170.49**
 
-### 3. Reviewing Different User-agent s
+### 3. Reviewing Different User-agents
 
 I then reviewed user agent patterns. There were only a few unique user agents in the log, and the high-volume IP consistently used the same one. 
 
-![alt text](image-5.png)
+![alt text](images/ss-5.png)
 
 - How many different user agent strings are found in the log file? **3**
 
@@ -48,7 +48,7 @@ To assess potential impact, I compared response sizes across these attempts. Mos
 
 By correlating that anomaly with its timestamp, I identified the moment a potentially successful SQL injection attempt occurred.
 
-![alt text](image-6.png)
+![alt text](images/ss-6.png)
 
 - What web-based attack can you identify ? **SQL Injection**
 
