@@ -8,11 +8,11 @@ The goal of this project is to demonstrate:
 
 - How raw logs can be analyzed without a SIEM 
 
-- How common attack patterns appear in real log data
+- How common attack patterns appear in real log data ?
 
-- How simple automation (shell scripting) can be used to detect suspicious behavior
+- How simple automation (shell scripting) can be used to detect suspicious behavior ?
 
-- How an analyst reasons about indicators of compromise (IOCs), false positives, and thresholds
+- How an analyst reasons about indicators of compromise (IOCs), false positives, and thresholds ?
 
 All examples focus on practical analysis, not just theoretical concepts.
 
