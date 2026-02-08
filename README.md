@@ -6,7 +6,7 @@ This projects is focused on hands-on log analysis and detection scripts built wh
 
 The goal of this project is to demonstrate:
 
-- How raw logs can be analyzed without a SIEM
+- How raw logs can be analyzed without a SIEM 
 
 - How common attack patterns appear in real log data
 
